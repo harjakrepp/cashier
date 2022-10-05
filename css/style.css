@@ -1,0 +1,43 @@
+		html,body {
+			margin: 0;
+			padding: 0;
+		}
+		.header {
+			text-align: center;
+			background: #222222;
+			color: white;
+			font-family: sans-serif;
+			margin: 0vh;
+			padding: 2vh;
+		}
+		.header h2,p {
+			padding: 0;
+			margin: 0;
+		}
+		.main {
+			margin: 4vh	;
+			padding: 0;
+		}
+		.main table {
+			width: 45vh;
+			background: #454545;
+			color: white;
+		}
+		.main td {
+			padding: 2vh;
+		}
+		.main td,label {
+			display: block;
+			text-align: center;
+		}
+		.main input {
+			background: #eeeeee;
+		}
+		.main .submit {
+			background: royalblue;
+			border: 0vh;
+			border-radius: 5vh;
+			color: white;
+			padding: 2vh;
+		}
+		.main .submit:hover{box-shadow: 0vh 0vh 2vh skyblue}
